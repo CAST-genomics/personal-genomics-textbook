@@ -8,6 +8,9 @@ Sequencing technologies are limited in our ability to read very long stretches o
 
 We just briefly outline the NGS workflow here. See CSE185 or past offerings of this course for more details.
 
+![NGS workflow](NGS.png)
+Source: [Illumina](https://www.illumina.com/content/dam/illumina-marketing/documents/products/illumina_sequencing_introduction.pdf)
+
 1. Genomic DNA is isolated from a sample, e.g. from a blood sample or from human cell lines. Note, this results in DNA from many (millions) cells, so we are starting with many many copies of a person's genome.
 2. The DNA is fragmented into small fragments of several hundred base pairs. This is because NGS technology cannot sequence very large pieces of DNA in one go.
 3. Special adapter sequences are added to these fragments to enable them to be read by the sequencer.
