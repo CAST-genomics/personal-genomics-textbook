@@ -6,6 +6,9 @@ Long-read technologies now generate reads that are many kilobases long. These ha
 
 There are currently two main technologies for long-read sequencing:
 
+![Long-read technologies](longread_compare.png)
+Source:[Oxford Global](https://oxfordglobal.com/omics/resources/advances-in-long-read-dna-sequencing) 
+
 * **Oxford Nanopore Technologies (ONT)**: ONT works by taking long pieces of DNA (*high molecular weight* DNA) and threading them through a small hole called a nanopore. Each base generates a characteristic electrical signal, which can be used to infer the sequence of bases being threaded through. ONT can generate impressively long read lengths, but with generally higher error rates than Pacbio or Illumina.
 
 * **Pacific Biosciences (PacBio)**: Pacbio has small wells with a polymerase attached to the bottom. High molecular weight DNA is passed through this polymerase, and a laser generates a signal that can be converted to base calls as the sequence passes through the polymerase and bases are added. PacBio can be run in two modes. In both modes, DNA fragments are first converted to circular molecules. (1) *Continuous long read sequencing (CLR)*: this mode generates very long reads (20kb-175kb+) with error rates around 10%. Each DNA fragment is read only once. (2) *Circular consensus sequence (CCS)* (also known as "hifi"). In this mode, somewhat shorter sequences (<20kb) are sequenced. But, the fragment is read multiple times by sequencing around the circular fragment. By reading the same fragment multiple times, errors can be corrected, resulting in low error rates of around 1%.
